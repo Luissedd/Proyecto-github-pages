@@ -1,0 +1,7 @@
+.carrito-comprado{
+    display: none;
+}
+.carrito-vacio{
+    color:var(--clr-main);
+    margin-left: 1rem;
+}

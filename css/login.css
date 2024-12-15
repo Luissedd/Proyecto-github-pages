@@ -1,0 +1,86 @@
+html{
+    background-color: var(--clr-green);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 1rem;
+    height: fit-content;
+    width: 30%;
+    padding: 1rem;
+}
+h2{
+    padding: 0;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+input#nombre{
+    padding: 0.7rem 0.5rem;
+    margin: 0.4rem 0;
+    width: 90%;
+    border: 0.1rem solid lightgrey;
+    border-radius: 0.2rem;
+}
+input#password{
+    padding: 0.7rem 0.5rem;
+    margin: 0.4rem 0;
+    width: 90%;
+    border: 0.1rem solid lightgrey;
+    border-radius: 0.2rem;
+}
+
+#botones{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input#submit{
+    color: var(--clr-white);
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0;
+    width: 100%;
+    background-color: var(--clr-main-light);
+}
+input#submit:hover{
+    border: 0.1rem solid black;
+}
+
+input#limpiar{
+    color: var(--clr-white);
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0;
+    width: 100%;
+    background-color: var(--clr-main);
+}
+input#limpiar:hover{
+    border: 0.1rem solid black;
+}
+.error-message{
+    color: var(--clr-red);
+    padding: 1rem;
+}
